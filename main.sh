@@ -1,3 +1,4 @@
+logsave a.txt ./main.sh 
 INPUT=student.csv
 OLDIFS=$IFS
 IFS=','
@@ -13,3 +14,4 @@ done < $INPUT
 IFS=$OLDIFS
 
 ./notmain.sh 
+
